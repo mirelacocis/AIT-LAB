@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <style type="text/css">
+        input, select{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div style="margin: 100px auto; padding:30px; border: 1px solid whitesmoke; width:300px;">
+ <form action="registration.php" method="GET" autocomplete>
+        <label>First Name:* </label> <input type="text" name="firstname" placeholder="Enter your first name" required/>  <br/>
+        <label>Last Name:* </label> <input type="text" name="lastname" placeholder="Enter your Last name" required/>  <br/>
+        <label>Email:* </label><input type="email" name="email" multiple="multiple" placeholder="Enter your Email" required/>  <br/>
+        <label>Phone:* </label><input type="number" name="phone" placeholder="Enter your Phone" required/>  <br/>
+        <label>Organization: </label><input type="text" name="organization" placeholder="Enter your Organization"/>  <br/>
+        <label>Address:* </label><input type="Address" name="address" placeholder="Enter your address" required/>  <br/>
+        <label>Url Homepage: </label><input type="Url" name="url" placeholder="Enter your url"/>  <br/>
+        <label>City:* </label> 
+        <select name="city">
+              <option value="Bolzano">Bolzano</option>
+              <option value="Bressanone">Bressanone</option>
+              <option value="Brunico">Brunico</option>
+        </select> <br/>    
+        <label>Zip code:* </label><input type="Number" name="zip" placeholder="Enter your zip" required/>  <br/>
+        <label>Payment mode:* </label>
+        <select name="paymentmode">
+              <option value="cash">Cash</option>
+              <option value="paypal">Paypal</option>
+              <option value="credit card">Credit card</option>
+        </select> <br/>
+        <label>Total to pay:* </label><input type="Number" name="payment-total" placeholder="Enter your Payment Total" min="10" max="150" required/>  <br/>
+        <label>Start date: </label><input type="date" name="date" placeholder="Date"/>  <br/>
+        <label>Favorite Color: </label><input type="Color" name="color" placeholder="Enter your favorite color"/>  <br/>
+
+       <input type="submit" name="details">
+  </form>
+</div>
+
+</body>
+</html>

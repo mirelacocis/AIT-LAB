@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 5</title>
+</head>
+
+<body>
+
+    <h2>Registration Form</h2>
+  
+      
+
+<form method="get" action="reg.php">  
+    
+    <label>Firstname: <span class="error">*</span><br>
+    </label><input type="Firstname" name="Firstname" placeholder="Firstname" required="Firstname" /> <br/><br>
+
+    <label>Lastname: <span class="error">*<br>
+    </label><input type="Lastname" name="Lastname" placeholder="Lastname" required="Lastname" /> <br/><br>
+
+    <label for="email">Email: <span class="error">*<br>
+    </label><input type="email" id="email" name="email" placeholder="email" required="email" /> <br/><br>
+
+  <label>Phone: <span class="error">*<br>
+  </label><input type="Phone" name="Phone" placeholder="Phone" required="Phone" /> <br/><br>
+
+ <label>Organization Name:<br>
+  </label><input type="Organization Name" name="Organization Name" placeholder="Organization" /> <br/><br>
+   
+    <label>Address: <span class="error">*<br>
+    </label><input type="Address" name="Address" placeholder="Address" required="Address" /> <br/><br>
+
+    <label>Url: <br>
+     </label><input type="url" name="homepage" placeholder="homepage" autofocus/> <br/><br>
+
+  <label>City: <span class="error">*<br>
+  </label><input type="text" name="mytext" placeholder="City" required="City" list="City"  placeholder="City" />
+    <datalist id="City">
+        <option value="Bolzano">
+        <option value=" Bressanone">
+        <option value="Brunico">
+        </datalist><br/><br>
+
+<label>Zipcode: <span class="error">*<br>
+</label><input type="Zipcode" name="Zipcode" placeholder="Zipcode" required="Zipcode" /> <br/><br>
+
+<label>Payment mode: <br>
+</label><input type="Payment mode" name="Payment mode" placeholder="Payment mode" list="Payment mode" placeholder="Payment mode" required="Payment mode" />
+    <datalist id="Payment mode">
+        <option value="Cash">
+        <option value="Paypal">
+        <option value="Credit Card">
+        </datalist><br/><br>
+
+ <label>Total to pay: <span class="error">*<br>
+  </label><input type="range" min="10" max="150" name="rating"  step="10" placeholder="Total to pay" required="Total to pay" /> <br/><br>
+
+
+     <label>Date: <br>
+     </label><input type="Date" name="Date"/> <br/><br>
+
+    
+    <label>Favorite Color: <br>
+    </label><input type="favorite  Color" name="favorite color" placeholder="favorite color" /> <br/><br>
+    <input type='submit'>
+</form>
+
+
+      
+      
+
+  <footer>
+    <p>
+      Posted on
+      <p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+      by Staff.
+    </p>
+  </footer>
+
+
+</body>
+
+</html>
