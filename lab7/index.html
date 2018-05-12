@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Lab6</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="jquerymethods.js"></script>
+</head>
+<body>
+	<header>
+		<h1>AIT LAB<h1>
+		<h3>Subtitle: Lab 6</h3>
+	</header>
+	<nav>
+		<div class="button">HOME</div>
+		<div class="button" onclick="showMenu()">ARTICLES</div>
+		<div class="button">ABOUT</div>
+	</nav>
+
+	<div id="submenu">
+		<div class="item" onclick="onclickItem('.maincenter')">Article1</div>
+		<div class="item" onclick="onclickItem('.second')">Article2</div>
+	</div>
+
+	
+	<article class="maincenter">
+		<div id="subhead">
+			<h1>FIRST ARTICLE</h1>
+			<h3>Make it notiecable!</h3>
+		</div>
+		<aside>
+			<img src="unibz_logo.jpg">
+			<p id="logo">unibz logo</p>
+		</aside>
+		<section>
+			<p>This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div. This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div.This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div. This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div. This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div. </p>
+
+			<p onclick="toggler()"> Read more...</p>
+
+			 <p id="togg">ARTICLE 2 This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div. This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div.This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div. This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div. This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div.
+			 ARTICLE 3 This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div. This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div.This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div. This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div. This article has to be more noticeable than others. Random text. Lorem ipsum text. Play with classes or maybe this will be the first artcile after a div.</p>
+
+			
+		</section>
+	</article>
+
+
+
+
+	<article class="second">
+		<div >
+			<h1>SECOND ARTICLE</h1>
+			<h3> Not so important</h3>
+		<section>
+			<p> Here is the content for the second article </p>
+		</section>
+	</article>
+
+
+	<footer id="idDown">Libera Unibersita di Bolzano, 2018</footer>
+</body>
+</html>
