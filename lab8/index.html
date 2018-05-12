@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 8</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+
+	<script type="text/javascript">
+		function toggle(){
+			$(".toggler").slideToggle();
+		}
+	</script>
+
+</head>
+<body>
+	<div id="header">
+		<div id="wrapper">
+			<div class="item">HOMEPAGE</div>
+			<div class="item">TWO SIDEBARS</div>
+			<div class="item">LEFT SIDEBAR</div>
+			<div class="item">RIGHT SIDEBAR</div>
+			<div class="item">NO SIDEBAR</div>
+		</div>
+
+		<div id="mobile-wrapper">
+			<div class="menu" onclick="toggle()"></div>
+			<div class="toggler">
+				<div class="item">HOMEPAGE</div>
+				<div class="item">TWO SIDEBARS</div>
+				<div class="item">LEFT SIDEBAR</div>
+				<div class="item">RIGHT SIDEBAR</div>
+				<div class="item">NO SIDEBAR</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

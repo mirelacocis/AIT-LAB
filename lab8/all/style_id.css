@@ -1,0 +1,49 @@
+#subhead{
+	width: 98%;
+	border-bottom: 1px solid whitesmoke;
+}
+
+#submenu{
+	width: 100px;
+	height:auto;
+
+	background: #F5F5F2;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 0px;
+	text-align: center;	
+	display: none;
+
+	position: absolute;
+	right: 0;
+	margin-right: 150px;
+	margin-top: 10px;
+}
+
+#logo{
+	width: 100%;
+	margin: -20px auto 0px;
+	text-align: center;
+}
+#idDown{
+	width: 50%;
+	height: 30px;
+	text-align: center;
+	color: white;
+
+	border-top: 1px solid lightgrey;
+	margin: 50px auto 0px;
+	padding-top: 30px;
+}
+
+#unibz{
+	background-color: #1E3C46;
+}
+
+#togg{
+	display: none;
+}
